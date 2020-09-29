@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: rgb(206, 193, 15);
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#header h1 {
+    font-size: 45px;
+    font-family: "aria narrow", arial, sans-serif;
+}
+
+#header span {
+    color: #fff;
+}
+
+#menu a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    font-weight: 600;
+}
+
+#menu a:link, a:visited {
+    color: #fff;
+}
+
+#menu a:hover {
+    background-color: #fff;
+    color:  rgb(206, 203, 15);
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.158);
+}
+
+#conteudo {
+    width: 1000px;
+    margin: 40px auto;
+    font-family: arial, sans-serif;
+}
+
+#conteudo a {
+    color: rgb(204, 176, 17);
+    font-size: 14px;
+}
+
+#conteudo-principal {
+    position: relative;
+    width: 645px;
+    text-align: justify;
+}
+
+#conteudo-principal h2 {
+    font-size: 25px;
+    margin-bottom: -15px;
+    color: rgb(204, 176, 17);
+}
+
+#conteudo-principal {
+    font-size: 13px;
+}
+
+#conteudo-lateral {
+    position: absolute;
+    left: 870px;
+    top: 260px;
+    width: 350px;
+}
+
+#conteudo-lateral h3 {
+    color: rgb(65, 62, 62);
+    background-color: rgb(219, 214, 214);
+    padding: 5px 8px;
+}
+
+#conteudo-lateral ul {
+    margin: 0;
+    padding: 0;
+}
+
+#conteudo-lateral ul li {
+    list-style: none;
+    padding: 2px;
+    color: rgb(204, 176, 17);
+    font-weight: 600;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 1px 0px;
+    color: rgb(65, 62, 62);
+    background-color: rgb(199, 194, 194);
+    text-align: center;
+}
